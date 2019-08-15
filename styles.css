@@ -11,13 +11,17 @@ body {
 
 /* header */
 header {
-    float: ;
     display: flex;
+}
+.nav-text{
+    margin-right: 6px;
+    margin-left: 1000px;
 }
 
 .nav-btn {
     background: #0077C5;
     border-radius: 4px;
+    margin-left: 10px;
     border: 1px solid #4c4c4c;
     color: #FFF;
     width: 100px;
@@ -25,12 +29,26 @@ header {
 }
 
 /* middle section */
+.image-logo{
+    width: 400px;
+    margin: auto;
+    margin-top: 30px;
+    margin-bottom: -150px;
+}
 .middle-section{
-    height: 500px;
-    width: 450px;
+    border: solid 1px rgba(0,0,0,0.2);
+    height: auto;
+    width: 400px;
     margin: 150px auto;
     background-color: #fff;
-    padding: 30px;
+    padding: 24px;
+}
+form{
+    position: relative;
+}
+form h2{
+    font-family: sans-serif;
+    text-decoration: none;
 }
 
 form label {
@@ -42,8 +60,84 @@ form label {
 form input{
     display: block;
     margin: 5px 0 27px 0;
-    padding: 5px 8px;
+    padding: 10px 8px;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 5px;
     width: 100%;
 }
+a{
+    color: #0077C5;
+    text-decoration: none;
+}
+label{
+    position: relative;
+    left: 1%;
+}
+form button{
+    background: #0077C5;
+    border: #0077C5;
+    border-radius: 4px;
+    width: 100%;
+    height: 45px;
+    font-size: 1.35em;
+    color: #FFF;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
 
+form p{
+    margin-top: 30px;
+    position: relative;
+    line-height: 1.8;
+  
+}
+.learn-more{
+    position: relative;
+    left: 32%;
+}
+.form-text{
+    font-size: 12px;
+    font-style: italic;
+    font-family: sans-serif;
 
+}
+form button div span{
+    height: 1em;
+    width: 1em;
+    margin-top: 1px;
+    margin-right: 5px;
+    vertical-align: text-top;
+    display: inline-block;
+    background-image: url(images/lock.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+  
+.form-bottom{
+    border: solid 1px rgba(0,0,0,0.2);
+    height: auto;
+    font-size: 10px;
+    width: 400px;
+    color: #8d9096;
+    margin: -150px auto;
+    background-color: #fff;
+    padding: 30px;
+    background-color: #ECEEF1;
+}
+footer{
+    margin: 150px auto;
+    font-weight: 400;
+    color: #505050;
+    text-align: center;
+    padding: 30px 0;
+  }
+  footer a{
+    text-decoration: none;
+    color: #505050;
+  }
+  footer a:hover{
+    text-decoration: underline;
+  }
+  
+  
